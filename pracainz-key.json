@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pracainz-402317",
+  "private_key_id": "263f957d72f705a52b5fc6024fa21ad1849469db",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDpcoCQGNJYo5UJ\nVxaE+s64yKzs+kO2uNjLO2XxArpQHBrxG8yvD2HByyhxmfyWVciiryc3X5Zd+NOu\nlDCIO4Htwdm80Sm5RQ1CYI+iZEkJ2msKY97MOd5X2sI/Cp1yHGEn6zO2XbcebAyo\nXlx/5NJFlNw/RETIJBWXs8J1JgxYqjjZ1AnrBnll6y1RjFXfsTWdnoNCtxBa+DHn\nZPfb4MC/pCAjwCsHZm82AFcGcpNnV5mEgZuRTlqi4sg4uR/i552MYy40BVDnMaiV\nTOukTHoyIErR1QUCecSQ9JrDivtRm4/CcEI0YvQSV6Hy7fJPngNj+enh1VDeze/9\na7s84Q1ZAgMBAAECggEAJr/9bC3amKEKp6K/l7JEJzMUVT/ThpyXS+DfsopX391S\ncYxCRRrCCNeOrpC3d0LlC3AUi+H/hTi89oEdrzdlgVBIsslrahf2s/pwTS3lW8/Y\nLcDXJkJC0IV88dbyvJLOY8BsdIyIzXF1BmunYglbB/bGOnA8FJa8yNIraKO4r+y8\nSjT1xnRreUFmmUZc/vouqxgkwBegslyH3Zp+iSDuG509BAQIdxVOXnga3+cGfgBV\nk29edNd9vpYUeObN3eRk37y5WcfixJSsYu5A2EsNrDBIE0xjqvHVnzx6txqKnVv7\nxtlMBw3zaCN/SxyuHiZcjJJmbXwm5NMZKJoYntTQSQKBgQD+qCMm8dPWgvGA4NHV\nrwUrn99RnaEg9bcDTeSydIhhYZ3eTnVr4JBj+mZsL5ZcPNih6gEdfBxr4YSyiKVh\nve4cuNCoy+wv2VaZZYXbjV++ATNuEjjAu/sNLzCDdvhmwNg+3Y5vSVsxFZT9NAMk\nq+AP1pz5b0BoCUNr46OPZ62N7QKBgQDqrbnIShYy4PpcBm6yGEm6WaVz7klw+nVE\nJwGXb4YLOaiJCXl4oiQORhjwQ24z6vlAuZP960LWvQqo+qhJTNg1xBXm4PfUSphJ\nQ0VnN9ZqSrHQCfl08d8awjZR1ar0fKborACAaoTct9vlSxQM9U6B/zcZR4ngI65z\nZkrXw5yvnQKBgFNGOlCG7gYMxdqmKhgdZqxwWD/BMyqrD1DWTP4KW3q0yEIlGALR\n6YW4IXwpR5scDp9L/Vdd+ZFRquoTAznmORJNYXaBUNgI02fQKii0n2Vr0RyiesqT\n7jHOh6fF5M79KvnLy8MakuaHLzRpqMl6Jwgm3yg2ODKNLO3//8FqXve1AoGBAMgn\n08SYK8bJS78hXVhYjsl5nDv8iHbrpwixnBHk9JauXqhChG/3GnlyH+MMH/n39w7V\nOPvgo+ky4tysrMuX1vBEhcmdJsLRvID/9znJzf5qJq4hU7oCcR8JdfrmGiDcEB9y\nVBsyvo7h4ZL3Leq/bm5BlmThNx8MT8XtAPh1xjWhAoGAevc73Jp+duzPZRRNehVr\n7+Zia3uTIdb+kBUPbUfE1MAiM8dlmMCMTzArrrry2KfN/ib5pOaHFrT/fTKgM4P5\nt7poCv37ngh3QOIgn2PJ9Jo9ND1A72SfZ3v/OoWqa9Sbvova2yo5Lgb3Y1kcNPSS\n8UzEjiYLB40hVscNTS6lCNg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "praca-inzynierska@pracainz-402317.iam.gserviceaccount.com",
+  "client_id": "112850950442731953287",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/praca-inzynierska%40pracainz-402317.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
