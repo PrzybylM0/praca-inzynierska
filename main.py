@@ -16,7 +16,7 @@ def operation(num, file_path, to):
     transcription_result = get_transcription(ASSEMBLYAI_API_KEY, file_path, LANGUAGE)
     print("Proces transkrypcji zakończony pomyślnie (1/4)")
     file_duration = get_file_duration(file_path)
-    with open("transcription_result.txt", "w", encoding="utf-8") as file:
+    with open("./raw_transcription_files/transcription_result.txt", "w", encoding="utf-8") as file:
         file.write(transcription_result)
     print("Treść transkrypcji zapisano do pliku: [transcription_result.txt] (2/4)")
     print(f"num:{num}")
