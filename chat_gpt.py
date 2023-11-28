@@ -74,11 +74,11 @@ def get_chatgpt_response(number, openai_api_key, transcript_sample, chatgpt_mode
         prompt = SHORT_SUMMARY
     elif number == '4':
         prompt = LONG_SUMMARY
-    elif number == '5':
+    elif number == '7':
         prompt = TABLE_OF_CONTENTS
     elif number == '6':
         prompt = SENTIMENT_ANALYSIS
-    elif number == '7':
+    elif number == '5':
         prompt = KEY_WORDS
     else:
         prompt = "There is no conversation here."

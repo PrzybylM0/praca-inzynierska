@@ -1,10 +1,16 @@
 import time
+from dotenv import load_dotenv
+import os
 from gmail_api import send_email
 from transcription import get_transcription, get_file_duration
 from chat_gpt import  get_chatgpt_response
-from config import ASSEMBLYAI_API_KEY, OPENAI_API_KEY, LANGUAGE, SCOPES, SUBJECT, CHATGPT_MODEL
+from config import LANGUAGE, SCOPES, SUBJECT, CHATGPT_MODEL
+
 
 def operation(num, file_path, to):
+    load_dotenv()
+    ASSEMBLYAI_API_KEY = os.getenv('ASSEMBLYAI_API_KEY')
+    OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
     start_time = time.time()
     print("\n\n\nGeneruję krótkie streszczenie...")
     transcription_result = get_transcription(ASSEMBLYAI_API_KEY, file_path, LANGUAGE)
