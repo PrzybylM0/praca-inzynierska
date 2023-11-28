@@ -19,7 +19,6 @@ def operation(num, file_path, to):
     with open("./raw_transcription_files/transcription_result.txt", "w", encoding="utf-8") as file:
         file.write(transcription_result)
     print("Treść transkrypcji zapisano do pliku: [transcription_result.txt] (2/4)")
-    print(f"num:{num}")
     response = get_chatgpt_response(num, OPENAI_API_KEY, transcription_result, CHATGPT_MODEL)
     print("Proces analizy treści zakończony pomyślnie (3/4)")
     send_email(SUBJECT, response, to, "./raw_transcription_files/transcription_result.txt", SCOPES)
